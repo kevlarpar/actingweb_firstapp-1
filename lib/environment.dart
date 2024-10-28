@@ -26,7 +26,7 @@ class Environment {
   static const String clientIdGoogleApp = String.fromEnvironment(
       "CLIENTID_GOOGLE_APP",
       defaultValue:
-          "748007732162-nnqg752ptfoejjmfg8bfo244j1bs2v71.apps.googleusercontent.com");
+          "854983074897-kjs4akm1a45mn4vkg1up2jjfoqb72r21.apps.googleusercontent.com");
 
   static const String redirctUrlGoogleWeb =
       // If value is empty, the current URL path will be used, which normally works ok so this
@@ -36,8 +36,8 @@ class Environment {
       "CLIENTID_GOOGLE_WEB",
       // The default value here is for illustration purposes only.
       defaultValue:
-          "748007732162-5h639jbt5m5tnjf675c7b0h13r8ajomg.apps.googleusercontent.com");
+          "854983074897-kjs4akm1a45mn4vkg1up2jjfoqb72r21.apps.googleusercontent.com");
   static const String secretGoogleWeb = String.fromEnvironment(
       "SECRET_GOOGLE_WEB",
-      defaultValue: "MUST_BE_SET_FROM_GOOGLE_OAUTH_CLIENT");
+      defaultValue: "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");
 }

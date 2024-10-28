@@ -132,7 +132,7 @@ Widget buildDrawerHeader(BuildContext context) {
           alignment: Alignment.center,
           height: 350,
           decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.background,
+            color: Theme.of(context).colorScheme.surface,
           ),
           child: ListView(
             children: <Widget>[

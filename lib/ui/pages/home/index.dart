@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text(AppLocalizations.of(context)!.appTitle),
         ),
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: Theme.of(context).colorScheme.surface,
         body: ChangeNotifierProvider(
           create: (_) => new LocStateModel(appState.mocks.getGeo()),
           child: const Center(

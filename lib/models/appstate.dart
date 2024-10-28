@@ -164,7 +164,7 @@ class AppStateModel with ChangeNotifier {
 
   /// Sends off a Firebase Analytics event.
   Future<void> sendAnalyticsEvent(
-      String name, Map<String, dynamic>? params) async {
+      String name, Map<String, Object>? params) async {
     if (analytics == null) {
       return;
     }
